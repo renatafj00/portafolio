@@ -75,3 +75,36 @@ body {
   background-color: var(--white);
   color: var(--black);
 }
+/* home */
+.home {
+  display: flex;
+}
+/* logo */
+.logo {
+  padding:20px;
+
+}
+/* navegacion */
+.navegacion ul {
+  border: 1px solid;
+}
+.navegacion ul li {
+  position: relative;
+  font-size: 60px;
+  padding-right: 40px;
+  line-height: 1.4;
+  text-transform: uppercase;
+  border:1px solid;
+}
+.navegacion ul li::after {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-size: 34px;
+  content: "->"
+  /* content: url() */
+}
+/* home */
+.home {
+
+}
