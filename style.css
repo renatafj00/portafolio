@@ -81,8 +81,10 @@ body {
 }
 /* logo */
 .logo {
-  padding:20px;
-
+  padding: 20px 80px;
+}
+.navegacion {
+  flex: 1;
 }
 /* navegacion */
 .navegacion ul {
@@ -94,17 +96,16 @@ body {
   padding-right: 40px;
   line-height: 1.4;
   text-transform: uppercase;
-  border:1px solid;
+  border: 1px solid;
 }
 .navegacion ul li::after {
   position: absolute;
   right: 0;
   top: 5px;
   font-size: 34px;
-  content: "->"
+  content: "->";
   /* content: url() */
 }
 /* home */
 .home {
-
 }
