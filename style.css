@@ -134,3 +134,16 @@ body {
 .proyecto .navegacion ul {
   border-top: 0;
 }
+
+/* proyecto */
+.proyecto .titulo {
+  background: rgb(255, 255, 255);
+  font-size: 54px;
+  padding: 20px 160px;
+  text-transform: uppercase;
+  border-bottom: 2px solid black;
+}
+.proyecto .navegacion ul {
+  border-top: 0;
+}
+
