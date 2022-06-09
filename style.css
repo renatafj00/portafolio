@@ -118,7 +118,8 @@ body {
 }
 .navegacion ul li {
   position: relative;
-  font-size: 60px;
+  /* Tal vez quieras modificar esta linea */
+/*   font-size: 60px; */
   padding-left: 10px;
   padding-right: 40px;
   line-height: 1.;
@@ -144,12 +145,17 @@ body {
 
 /* pagina proyectos */
 .proyecto .titulo {
-    background: rgb(172, 192, 17);
-    font-size: 34px;
-    padding: 20px 450px;
-    text-transform: uppercase;
-    border-bottom: 2px solid black;
-
+  font-size: 34px;
+  width: 100vw;
+  text-align: center;
+  margin: auto;
+  font-weight: 100;
+  font-size: 60px;
+  padding-left: 10px;
+  padding-right: 40px;
+  line-height: 1.;
+  text-transform: uppercase;
+  border: 2px solid black;
 
 }
 
