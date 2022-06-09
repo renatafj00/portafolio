@@ -119,7 +119,7 @@ body {
 .navegacion ul li {
   position: relative;
   /* Tal vez quieras modificar esta linea */
-/*   font-size: 60px; */
+  font-size: 60px;
   padding-left: 10px;
   padding-right: 40px;
   line-height: 1.;
