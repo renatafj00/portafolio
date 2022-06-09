@@ -1,3 +1,10 @@
+/* Imports - Tipografía */
+@font-face {
+  font-family: "Staff";
+  src: url("https: //res.cloudinary.com/renatafj/raw/upload/v1654268358/portafolio/StaffGroteskTest-Regular_iuas4u.woff2"),
+    format("woff2");
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 /* Reset */
 *,
 *::before,
@@ -54,7 +61,7 @@ picture {
   --black: #000000;
   --white: #ffffff;
   /* 2. Tipografía */
-  --font-sans: sans-serif;
+  font-family: "Staff";
   --font-size-1: 1rem;
   --font-size-2: 1.1rem;
   --font-size-3: 1.25rem;
@@ -68,13 +75,22 @@ picture {
   --size-mobile: 414px;
   --size-desktop: 1440px;
 }
-
+a{
+  text-decoration:none
+}
 /* Base */
 body {
-  font-family: var(--font-sans);
+  /* font-family: "Staff"; */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   background-color: var(--white);
   color: var(--black);
 }
+
+.regular {
+  font-weight: 400;
+}
+
 /* home */
 .home {
   display: flex;
@@ -97,25 +113,28 @@ body {
 }
 /* navegacion */
 .navegacion ul {
-  border-bottom: 1px solid;
+  border-left: 1px solid;
+  position: relative;
 }
 .navegacion ul li {
   position: relative;
   font-size: 60px;
   padding-left: 10px;
   padding-right: 40px;
-  line-height: 1.4;
+  line-height: 1.;
   text-transform: uppercase;
   border: 1px solid;
-  border-left: none;
+  border-left:none
+
 }
 .navegacion ul li::after {
   position: absolute;
   right: 0;
   top: 5px;
+  width: 50px;
+  height: auto;
   font-size: 34px;
-  content: "->";
-  /* content: url() */
+  content: url("https://res.cloudinary.com/renatafj/image/upload/v1654269555/portafolio/image_gj95rs.svg")
 }
 /* home */
 .home {
@@ -123,16 +142,16 @@ body {
   height: 100vh;
 }
 
-/* proyecto */
+/* pagina proyectos */
 .proyecto .titulo {
-    background: rgb(255, 255, 255);
-    font-size: 80px;
+    background: rgb(172, 192, 17);
+    font-size: 34px;
     padding: 20px 450px;
     text-transform: uppercase;
     border-bottom: 2px solid black;
 
-}
 
+}
 
 .proyecto .logo {
   width: 30vw;
@@ -143,12 +162,10 @@ body {
   position: absolute;
   top: 0;
   width: 80px;
-  /* padding-block: 20px;
-  padding-left: 20px; */
-  /* margin: auto; */
+
 }
 
-/* proyecto */
+/* proyecto cartelera */
 .proyecto-i  {
   display: flex;
 }
@@ -159,16 +176,16 @@ body {
   top: 5px;
   font-size: 34px;
   content: "";
+
   /* content: url() */
 }
-
 .proyecto .logo {
   width: 30vw;
   border: none;
 }
-.proyecto-i +  {
+/* .proyecto-i +  {
   display: flex;
-}
+} */
 
 .proyecto ul,
 .proyecto ul li {
@@ -176,8 +193,7 @@ body {
 }
 
 .contenido {
-border: 2px solid black;
-
+border-top: 2px solid black;
 }
 .contenido img {
  width: 100vw;
@@ -194,8 +210,7 @@ grid-column: 2/3;
   grid-template-columns: 1fr 1fr;
 }
 
-.hola {
- grid-column: 2/3;
- margin: auto;
- background: blue;
+.ficha-tecnica {
+  position: absolute;
+  bottom: -50px;
 }
