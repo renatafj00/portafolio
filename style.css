@@ -197,6 +197,10 @@ body {
 .proyecto ul li {
   border: none;
 }
+.proyecto ul {
+  border-left: 2px solid black;
+  height: 100vh;
+}
 
 .contenido {
 border-top: 2px solid black;
