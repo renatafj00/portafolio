@@ -224,13 +224,15 @@ grid-column: 2/3;
   position: absolute;
   bottom: -50px;
 }
-
-
 @media screen and (max-width: 600px) {
-  .proyecto.x {
-   margin-top: 80px;
+  .navegacion ul li {
+      font-size: 32px;
   }
+
+  .proyecto.x {
+      margin-top: 80px;
+    }
   .cols-2 {
-  grid-template-columns: 1fr;
+    grid-template-columns: 1fr;
   }
 }
