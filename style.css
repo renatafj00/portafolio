@@ -197,7 +197,7 @@ body {
 .proyecto ul li {
   border: none;
 }
-.proyecto ul {
+.proyecto.x ul {
   border-left: 2px solid black;
   height: 100vh;
 }
